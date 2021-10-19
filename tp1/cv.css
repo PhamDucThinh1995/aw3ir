@@ -1,0 +1,49 @@
+.center {
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+body {
+    max-width: 600px
+    height: 500px;
+    background-color: lightblue; /* Pour les navigateurs qui ne supportent pas de gradient */
+    background-image: linear-gradient(to right, #1c87c9, #8ebf42);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    }
+table {
+        background-color: white;
+    }
+#h2cv {
+    color:black;
+    /* margin-left: 20px' */
+    font-size:0.75cm;
+    transition:2s;
+    }
+#h2cv:hover {
+        font-size:1cm;
+    }
+#h1formexp{
+    color:black;
+    /* margin-left: 20px' */
+    font-size:1cm;
+    transition:2s;
+}
+#h1formexp:hover {
+    font-size:1.3cm;
+}
+p {
+    color: black;
+    background-color: whitesmoke;
+    font-size:auto;
+    transition:2s;
+}
+#publication{
+    font-size:auto;
+    transition:2s;
+}
+#publication:hover{
+    font-size:0.5cm;    
+}
