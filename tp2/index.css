@@ -7,7 +7,7 @@ table{
     background-color: white;
 }
 #error{
-    background-color: rgb(188, 143, 151);
+    background-color: red;
     border-color: black;
     padding: 5px;
     border: 2px;
