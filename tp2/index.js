@@ -5,7 +5,7 @@ function validation() {
 		document.getElementById("resultat").style.display = "none";
     }
     else if (document.getElementById("prénom").value.length < 5) {
-        cument.getElementById("error").innerHTML = "La prenom doit contenir au moins 5 caracteres";
+        cument.getElementById("error").innerHTML = "Le prenom doit contenir au moins 5 caracteres";
         document.getElementById("error").style.display = "initial";
 		document.getElementById("resultat").style.display = "none";
     }
@@ -15,7 +15,7 @@ function validation() {
 		document.getElementById("resultat").style.display = "none";
     }
     else if (document.getElementById("adresse").value.length < 5) {
-        document.getElementById("error").innerHTML = "L'adress doit contenir au moins 5 caracteres";
+        document.getElementById("error").innerHTML = "L'adresse doit contenir au moins 5 caracteres";
         document.getElementById("error").style.display = "initial";
 		document.getElementById("resultat").style.display = "none";
     }
