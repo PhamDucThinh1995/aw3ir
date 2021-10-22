@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+table{
+    background-color: white;
+}
+#error{
+    background-color: rgb(188, 143, 151);
+    border-color: black;
+    padding: 5px;
+    border: 2px;
+    display: none;
+}
+#resultat{
+    border:2px;
+    padding: 5px;
+	border-color:none;
+	background-color:green;
+	color:white;
+	display:none;
+}
